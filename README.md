@@ -1,4 +1,13 @@
-case-statements-readme
-======================
+---
+tags: readme
+language: ruby
+resources: 0
+track: web development
+topic: ruby
+unit: control flow
+lesson: case statements
+---
 
-readme about case statements in ruby
+# Case Statements
+
+WIP
