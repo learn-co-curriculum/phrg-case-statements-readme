@@ -14,7 +14,7 @@ lesson: case statements
 
 ```ruby
 weather = "raining"
-case grade
+case weather
 when "sunny"
   puts "grab some sunscreen!"
 when "raining"
