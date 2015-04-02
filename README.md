@@ -12,6 +12,8 @@ lesson: case statements
 
 ## Example 1: Weather
 
+See how we can do weather in ruby.
+
 ```ruby
 weather = "raining"
 case weather
