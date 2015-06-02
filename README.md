@@ -10,6 +10,27 @@ lesson: case statements
 
 # Case Statements
 
+A case statement is a powerful tool to test for certain conditions. They are used to run multiple conditions against one value.
+
+A case statement starts with the `case` keyword followed by a value to test.
+
+```ruby
+case "Hi"
+# ...
+end
+```
+
+Next, the `when` keyword is followed by a condition.
+
+```ruby
+case "Greeting"
+when "Greeting"
+  puts "Hi! How are you?"
+end
+```
+
+The value and the condition are then compared using the `===` operator (i.e. value === condition). [Read more about === here.](http://stackoverflow.com/questions/4467538/what-does-the-operator-do-in-ruby?lq=1). The result of the comparison is a boolean value (`true` or `false`). If the value and condition evaluates to `false`, the code beneath that condition is skipped. If it evaluates to `true`, the code beneath it is executed.
+
 
 ## Example 1: Weather
 
