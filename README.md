@@ -42,7 +42,7 @@ when "friendly_greeting"
 end
 ```
 
-The value and the condition are compared using the `===` operator (i.e. value === condition). [Read more about === here.](http://stackoverflow.com/questions/3422223/vs-in-ruby?lq=1). The result of the comparison is a boolean value (`true` or `false`). If the value and condition evaluates to `false`, the code beneath that condition is skipped. If it evaluates to `true`, the code beneath it is executed.
+The value and the condition are compared using the `===` operator (i.e. value === condition). [Read more about === here.](http://stackoverflow.com/questions/3422223/vs-in-ruby?lq=1) The result of the comparison is a boolean value (`true` or `false`). If the value and condition evaluates to `false`, the code beneath that condition is skipped. If it evaluates to `true`, the code beneath it is executed.
 
 In the above case, Ruby compares the `case` value to the two `when` conditions. `"friendly_greeting" === "unfriendly_greeting"` is `false`, so `puts "What do you want!?"` is not run. `"friendly_greeting" === "friendly_greeting"` is `true`, so `puts "Hi! How are you?"` is run.
 
