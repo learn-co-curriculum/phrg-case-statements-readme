@@ -10,7 +10,7 @@ lesson: case statements
 
 # Case Statements
 
-A case statement is a powerful tool to test for certain conditions. They are used to run multiple conditions against one value.
+A case statement is a powerful tool to test for certain conditions. They are used to run multiple conditions against one value. There are three basic steps to creating a Case Statement. First, we'll need a value. Second, we'll want one or more conditions to compare to the value. Third, we'll add the code we want to run if that condion is met. Let's walk through these sets in more detail below.
 
 ### Step 1: Create a Value
 A case statement starts with the `case` keyword followed by a value to test.
@@ -32,7 +32,7 @@ when "friendly_greeting"
 end
 ```
 ###Step 3: Add the Code
-What do you want to happen when the value and condition match? Now we add the code that we want to run if the `case` value matches the `when` condition.
+What do you want to happen when the value and condition match? The functionality you wish to have when the condition is met is placed on an indented line directly under the `when` line. Now it's time to add that code.
 
 ```ruby
 case "friendly_greeting"
@@ -43,7 +43,7 @@ when "friendly_greeting"
 end
 ```
 
-The value and the condition are compared using `===` (the triple equals operator) (i.e. value === condition). [Read more about === here.](http://stackoverflow.com/questions/3422223/vs-in-ruby?lq=1) The result of the comparison is a boolean value (`true` or `false`). If the value and condition evaluates to `false`, the code beneath that condition is skipped. If it evaluates to `true`, the code beneath it is executed.
+The value and the condition are compared using the triple equals operator `===` (i.e. value === condition). [Read more about === here.](http://stackoverflow.com/questions/3422223/vs-in-ruby?lq=1) The result of the comparison is a boolean value (`true` or `false`). If the value and condition evaluates to `false`, the indented code beneath that condition is skipped. If it evaluates to `true`, the indented code beneath it is executed.
 
 In the above case, Ruby compares the `case` value to the two `when` conditions. `"friendly_greeting" === "unfriendly_greeting"` is `false`, so `puts "What do you want!?"` is not run. `"friendly_greeting" === "friendly_greeting"` is `true`, so `puts "Hi! How are you?"` is run.
 
