@@ -10,7 +10,7 @@ lesson: case statements
 
 # Case Statements
 
-A case statement is a powerful tool to test for certain conditions. They are used to run multiple conditions against one value. There are three basic steps to creating a Case Statement. First, we'll need a value. Second, we'll want one or more conditions to compare to the value. Third, we'll add the code we want to run if that condion is met. Let's walk through these sets in more detail below.
+A case statement is a powerful tool to test for certain conditions. They are used to run multiple conditions against one value. There are three basic steps to creating a Case Statement. First, we'll need a value. Second, we'll want one or more conditions to compare to the value. Third, we'll add the code we want to run if that condion is met. Let's walk through these steps in more detail below.
 
 ### Step 1: Create a Value
 A case statement starts with the `case` keyword followed by a value to test.
