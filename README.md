@@ -1,14 +1,11 @@
----
-tags: readme
-language: ruby
-resources: 0
-track: web development
-topic: ruby
-unit: control flow
-lesson: case statements
----
-
 # Case Statements
+
+##Objectives:
+
+1. Understand what a case statement is and how it works to enact flow control
+2. Be able to write a case statement
+
+##What is a Case Statement?
 
 A case statement is a powerful tool to test for certain conditions. They are used to run multiple conditions against one value. There are three basic steps to creating a Case Statement. First, we'll need a value. Second, we'll want one or more conditions to compare to the value. Third, we'll add the code we want to run if that condion is met. Let's walk through these steps in more detail below.
 
@@ -46,6 +43,7 @@ end
 The value and the condition are compared using the triple equals operator `===` (i.e. value === condition). [Read more about === here.](http://stackoverflow.com/questions/3422223/vs-in-ruby?lq=1) The result of the comparison is a boolean value (`true` or `false`). If the value and condition evaluates to `false`, the indented code beneath that condition is skipped. If it evaluates to `true`, the indented code beneath it is executed.
 
 In the above case, Ruby compares the `case` value to the two `when` conditions. `"friendly_greeting" === "unfriendly_greeting"` is `false`, so `puts "What do you want!?"` is not run. `"friendly_greeting" === "friendly_greeting"` is `true`, so `puts "Hi! How are you?"` is run.
+>>>>>>> 34f313d281feb354a3e95a6c5b38fc75b01c8689
 
 ## Example 1: Weather
 
