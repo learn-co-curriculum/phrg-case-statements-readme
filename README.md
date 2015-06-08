@@ -1,14 +1,9 @@
----
-tags: readme
-language: ruby
-resources: 0
-track: web development
-topic: ruby
-unit: control flow
-lesson: case statements
----
-
 # Case Statements
+
+##Objectives:
+
+1. Understand what a case statement is and how it works to enact flow control
+2. Be able to write a case statement
 
 ## Example 1: Weather
 
