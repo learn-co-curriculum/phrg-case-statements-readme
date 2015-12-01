@@ -128,7 +128,7 @@ end
 
 This example requires a basic understanding of `gets.chomp`. It allows us to get a user's input, and use it in our code. [Read more on what it does here.](http://stackoverflow.com/questions/23193813/how-does-gets-and-gets-chomp-in-ruby-work)
 
-Here, we are prompting the user to input a student's grade. Based on that `grade`, the program then prints out the string associated with the matching condition. If the user enters "A", then `grade = "A"`. Since `grade === "A"`, Ruby will print `Good jorb, Homestar!` to the screen. 
+Here, we are prompting the user to input a student's grade. Based on that `grade`, the program then prints out the string associated with the matching condition. If the user enters "A", then `grade = "A"`. Since `grade === "A"`, Ruby will print `Good job, Homestar!` to the screen. 
 
 ```ruby
 print "Enter your grade: "
@@ -136,7 +136,7 @@ grade = gets.chomp
 
 case grade
   when "A"
-    puts "Good jorb, Homestar!"
+    puts "Good job, Homestar!"
   when "B"
     puts "You can totally do better!"
   when "C"
