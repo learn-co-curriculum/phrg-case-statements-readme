@@ -145,3 +145,5 @@ case grade
     puts "You're just making that up!"
 end
 ```
+
+<a href='https://learn.co/lessons/case-statements-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
