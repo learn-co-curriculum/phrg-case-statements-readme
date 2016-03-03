@@ -14,7 +14,7 @@ A case statement is a powerful tool to test for certain conditions. They are use
 
 In the previous lessons, we've learned about using `if`, `elsif`, and `else` statements to enact flow control in our programs. Let's look at an example of using `if` statements that would benefit from being refactored to use a `case` statement instead. 
 
-Let's say we have a program that sets a `user` variable equal to a person's name. Our program needs to execute certain code depending on what that person's name is. 
+Let's say we have a program that sets a `name` variable equal to a person's name. Our program needs to execute certain code depending on what that person's name is. 
 
 ```ruby
 name = "Alice"
@@ -147,3 +147,5 @@ end
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/case-statements-readme' title='case Statements'>case Statements</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/case-statements-readme'>Case Statements</a> on Learn.co and start learning to code for free.</p>
