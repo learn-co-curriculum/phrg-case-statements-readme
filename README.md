@@ -66,7 +66,7 @@ Now that we understand *when* to use a `case` statement in place of a series of 
 A case statement starts with the `case` keyword followed by a value to test.
 
 ```ruby
-case "friendly_greeting"
+case greeting
 # ...
 end
 ```
@@ -76,7 +76,7 @@ end
 Next, the `when` keyword is followed by a condition.
 
 ```ruby
-case "friendly_greeting"
+case greeting
   when "unfriendly_greeting"
     #...
   when "friendly_greeting"
@@ -89,7 +89,9 @@ end
 The functionality that we wish to happen when the condition is met is placed on an indented line directly under the `when` line. Let's define the behavior:
 
 ```ruby
-case "friendly_greeting"
+greeting = "friendly_greeting"
+
+case greeting
   when "unfriendly_greeting"
     puts "What do you want!?"
   when "friendly_greeting"
@@ -149,3 +151,5 @@ end
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/case-statements-readme' title='case Statements'>case Statements</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/case-statements-readme'>Case Statements</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/case-statements-readme'>About Ruby Case Statements</a> on Learn.co and start learning to code for free.</p>
