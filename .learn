@@ -9,3 +9,5 @@ unit: control flow
 lesson: case statements
 
 
+
+parent_template: git@github.com:learn-co-curriculum/case-statements-readme.git
